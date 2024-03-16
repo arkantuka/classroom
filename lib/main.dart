@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'CLASSROOM',
       theme: ThemeData(
-        colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 4, 231, 15)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Color.fromARGB(255, 4, 231, 15),
+        ),
         useMaterial3: true,
       ),
       home: const pinLogInPage(),
